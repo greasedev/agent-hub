@@ -1,0 +1,17 @@
+[
+  {
+    "id": "xianyu-assistant",
+    "name": "闲鱼购物助手",
+    "description": "闲鱼买家智能助手，帮助用户询价比价，找到最划算的商品",
+    "longDescription": "闲鱼购物助手是一款专为闲鱼买家打造的智能工具。支持商品询价、多商家比价、价格趋势分析、历史成交查询等功能，帮助买家快速找到性价比最高的商品，做出明智的购买决策。",
+    "category": "购物工具",
+    "author": "Grease AI Team",
+    "icon": "https://cdn.grease.ai/icons/xianyu-assistant.png",
+    "installs": 0,
+    "rating": 0,
+    "tags": ["闲鱼", "购物", "比价", "询价", "二手交易"],
+    "version": "1.0.0",
+    "runtime": ["mac", "android"],
+    "packageUrl": "agents/xianyu-assistant-1.0.0.zip"
+  }
+]
