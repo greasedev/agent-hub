@@ -10,8 +10,8 @@
     "installs": 0,
     "rating": 0,
     "tags": ["闲鱼", "购物", "比价", "询价", "二手交易"],
-    "version": "1.0.2",
+    "version": "1.0.3",
     "runtime": ["mac", "android"],
-    "packageUrl": "agents/xianyu-assistant-1.0.2.zip"
+    "packageUrl": "agents/xianyu-assistant-1.0.3.zip"
   }
 ]
