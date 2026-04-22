@@ -1,5 +1,20 @@
 [
   {
+    "id": "main",
+    "name": "Grease Agent",
+    "description": "Grease Agent",
+    "longDescription": "Grease Agent",
+    "category": "通用",
+    "author": "Grease AI Team",
+    "icon": "https://cdn.grease.ai/icons/main.png",
+    "installs": 0,
+    "rating": 0,
+    "tags": ["主代理"],
+    "version": "2",
+    "runtime": ["mac", "android"],
+    "packageUrl": "agents/main_v2.zip"
+  },
+  {
     "id": "xianyu-assistant",
     "name": "闲鱼购物助手",
     "description": "闲鱼买家智能助手，帮助用户询价比价，找到最划算的商品",
