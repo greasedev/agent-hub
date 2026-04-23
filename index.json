@@ -25,8 +25,8 @@
     "installs": 0,
     "rating": 0,
     "tags": ["闲鱼", "购物", "比价", "询价", "二手交易"],
-    "version": "9",
+    "version": "10",
     "runtime": ["mac", "android"],
-    "packageUrl": "agents/7KJo8Y3T-xu-REWTqqtJw_v9.zip"
+    "packageUrl": "agents/7KJo8Y3T-xu-REWTqqtJw_v10.zip"
   }
 ]
