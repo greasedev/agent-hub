@@ -28,5 +28,20 @@
     "version": "10",
     "runtime": ["mac", "android"],
     "packageUrl": "https://github.com/greasedev/agent-hub/releases/latest/download/7KJo8Y3T-xu-REWTqqtJw_v10.zip"
+  },
+  {
+    "id": "wcO2UwlGAW1m5FBIAteto",
+    "name": "电商动销助手",
+    "description": "电商商家智能动销工具，帮助商家提升商品销售效率",
+    "longDescription": "电商动销助手是一款专为电商商家打造的智能动销工具。支持自动降价策略、促销活动管理、库存预警、销售数据分析等功能，帮助商家快速提升商品动销率，优化库存周转。",
+    "category": "电商工具",
+    "author": "Grease AI Team",
+    "icon": "https://cdn.grease.ai/icons/dongxiao-assistant.png",
+    "installs": 0,
+    "rating": 0,
+    "tags": ["电商", "动销", "促销", "降价", "库存管理"],
+    "version": "2",
+    "runtime": ["mac", "android"],
+    "packageUrl": "https://github.com/greasedev/agent-hub/releases/latest/download/wcO2UwlGAW1m5FBIAteto_v2.zip"
   }
 ]
