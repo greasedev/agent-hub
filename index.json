@@ -12,7 +12,7 @@
     "tags": ["主代理"],
     "version": "2",
     "runtime": ["mac", "android"],
-    "packageUrl": "agents/main_v2.zip"
+    "packageUrl": "https://github.com/greasedev/agent-hub/releases/latest/download/main_v2.zip"
   },
   {
     "id": "7KJo8Y3T-xu-REWTqqtJw",
@@ -27,6 +27,6 @@
     "tags": ["闲鱼", "购物", "比价", "询价", "二手交易"],
     "version": "10",
     "runtime": ["mac", "android"],
-    "packageUrl": "agents/7KJo8Y3T-xu-REWTqqtJw_v10.zip"
+    "packageUrl": "https://github.com/greasedev/agent-hub/releases/latest/download/7KJo8Y3T-xu-REWTqqtJw_v10.zip"
   }
 ]
