@@ -40,8 +40,8 @@
     "installs": 0,
     "rating": 0,
     "tags": ["电商", "动销", "促销", "降价", "库存管理"],
-    "version": "10",
+    "version": "11",
     "runtime": ["mac", "android"],
-    "packageUrl": "https://github.com/greasedev/agent-hub/releases/latest/download/wcO2UwlGAW1m5FBIAteto_v10.zip"
+    "packageUrl": "https://github.com/greasedev/agent-hub/releases/latest/download/wcO2UwlGAW1m5FBIAteto_v11.zip"
   }
 ]
