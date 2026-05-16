@@ -43,5 +43,20 @@
     "version": "11",
     "runtime": ["mac", "android"],
     "packageUrl": "https://github.com/greasedev/agent-hub/releases/latest/download/wcO2UwlGAW1m5FBIAteto_v11.zip"
+  },
+  {
+    "id": "UaufS6duSA7NIuMTzeuT6",
+    "name": "社交媒体聚焦助手",
+    "description": "社交媒体智能聚焦工具，帮助用户高效管理社交媒体内容",
+    "longDescription": "社交媒体聚焦助手是一款专为社交媒体用户打造的智能工具。支持内容聚合、热点追踪、智能筛选、数据分析等功能，帮助用户高效管理社交媒体信息，聚焦重要内容。",
+    "category": "社交工具",
+    "author": "Grease AI Team",
+    "icon": "https://cdn.grease.ai/icons/social-assistant.png",
+    "installs": 0,
+    "rating": 0,
+    "tags": ["社交媒体", "内容管理", "热点追踪", "信息筛选"],
+    "version": "1",
+    "runtime": ["mac", "android"],
+    "packageUrl": "https://github.com/greasedev/agent-hub/releases/latest/download/UaufS6duSA7NIuMTzeuT6_v1.zip"
   }
 ]
