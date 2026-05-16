@@ -24,42 +24,36 @@ if ! gh auth status &> /dev/null; then
     exit 1
 fi
 
-# 从 index.json 提取 packageUrl 中的文件名
+# 从 index.json 提取 packageUrl
 echo "📋 解析 index.json 中的 packageUrl..."
-PACKAGE_FILES=()
+PACKAGE_URLS=()
 while IFS= read -r url; do
     if [ -n "$url" ]; then
-        filename=$(basename "$url")
-        PACKAGE_FILES+=("$filename")
-        echo "  引用: $filename"
+        PACKAGE_URLS+=("$url")
+        echo "  引用: $url"
     fi
 done < <(jq -r '.[].packageUrl' index.json)
 
-if [ ${#PACKAGE_FILES[@]} -eq 0 ]; then
+if [ ${#PACKAGE_URLS[@]} -eq 0 ]; then
     echo "❌ index.json 中没有找到 packageUrl"
     exit 1
 fi
 
-# 获取已发布的文件列表
-echo "🔍 检查已发布的文件..."
-EXISTING_FILES=""
-LATEST_RELEASE=$(gh release list --repo "$REPO" --limit 1 --json tagName -q '.[0].tagName' 2>/dev/null || echo "")
-
-if [ -n "$LATEST_RELEASE" ]; then
-    echo "最新 Release: $LATEST_RELEASE"
-    EXISTING_FILES=$(gh release view "$LATEST_RELEASE" --repo "$REPO" --json assets -q '.assets[].name' 2>/dev/null || echo "")
-fi
-
-# 检查需要上传的新文件
+# 检查 packageUrl 是否可访问
+echo "🔍 检查 packageUrl 是否可访问..."
 NEW_FILES=()
-for filename in "${PACKAGE_FILES[@]}"; do
+for url in "${PACKAGE_URLS[@]}"; do
+    filename=$(basename "$url")
     zip_file="agents/$filename"
+
     if [ ! -f "$zip_file" ]; then
         echo "  ⚠️ 文件不存在: $filename (跳过)"
         continue
     fi
-    if echo "$EXISTING_FILES" | grep -q "^${filename}$"; then
-        echo "  已存在: $filename (跳过)"
+
+    # 用 curl 跟随重定向检查 URL 是否可下载（HTTP 200）
+    if curl -sfLI "$url" > /dev/null 2>&1; then
+        echo "  已存在: $url (跳过)"
     else
         NEW_FILES+=("$zip_file")
         echo "  新文件: $filename"
