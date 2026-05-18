@@ -9,10 +9,15 @@
     "icon": "https://cdn.grease.ai/icons/main.png",
     "installs": 0,
     "rating": 0,
-    "tags": ["主代理"],
+    "tags": [
+      "主代理"
+    ],
     "version": "2",
-    "runtime": ["mac", "android"],
-    "packageUrl": "./main_v2.zip"
+    "runtime": [
+      "mac",
+      "android"
+    ],
+    "packageUrl": "https://github.com/greasedev/agent-hub/releases/download/v202605190750/main_v2.zip"
   },
   {
     "id": "7KJo8Y3T-xu-REWTqqtJw",
@@ -24,10 +29,19 @@
     "icon": "https://cdn.grease.ai/icons/xianyu-assistant.png",
     "installs": 0,
     "rating": 0,
-    "tags": ["闲鱼", "购物", "比价", "询价", "二手交易"],
+    "tags": [
+      "闲鱼",
+      "购物",
+      "比价",
+      "询价",
+      "二手交易"
+    ],
     "version": "10",
-    "runtime": ["mac", "android"],
-    "packageUrl": "./7KJo8Y3T-xu-REWTqqtJw_v10.zip"
+    "runtime": [
+      "mac",
+      "android"
+    ],
+    "packageUrl": "https://github.com/greasedev/agent-hub/releases/download/v202605190750/7KJo8Y3T-xu-REWTqqtJw_v10.zip"
   },
   {
     "id": "wcO2UwlGAW1m5FBIAteto",
@@ -39,10 +53,19 @@
     "icon": "https://cdn.grease.ai/icons/dongxiao-assistant.png",
     "installs": 0,
     "rating": 0,
-    "tags": ["电商", "动销", "促销", "降价", "库存管理"],
+    "tags": [
+      "电商",
+      "动销",
+      "促销",
+      "降价",
+      "库存管理"
+    ],
     "version": "11",
-    "runtime": ["mac", "android"],
-    "packageUrl": "./wcO2UwlGAW1m5FBIAteto_v11.zip"
+    "runtime": [
+      "mac",
+      "android"
+    ],
+    "packageUrl": "https://github.com/greasedev/agent-hub/releases/download/v202605190750/wcO2UwlGAW1m5FBIAteto_v11.zip"
   },
   {
     "id": "UaufS6duSA7NIuMTzeuT6",
@@ -54,9 +77,17 @@
     "icon": "https://cdn.grease.ai/icons/social-assistant.png",
     "installs": 0,
     "rating": 0,
-    "tags": ["社交媒体", "内容管理", "热点追踪", "信息筛选"],
+    "tags": [
+      "社交媒体",
+      "内容管理",
+      "热点追踪",
+      "信息筛选"
+    ],
     "version": "3",
-    "runtime": ["mac", "android"],
-    "packageUrl": "./UaufS6duSA7NIuMTzeuT6_v3.zip"
+    "runtime": [
+      "mac",
+      "android"
+    ],
+    "packageUrl": "https://github.com/greasedev/agent-hub/releases/download/v202605190750/UaufS6duSA7NIuMTzeuT6_v3.zip"
   }
 ]
