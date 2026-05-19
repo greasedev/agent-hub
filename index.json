@@ -83,11 +83,11 @@
       "热点追踪",
       "信息筛选"
     ],
-    "version": "3",
+    "version": "4",
     "runtime": [
       "mac",
       "android"
     ],
-    "packageUrl": "https://github.com/greasedev/agent-hub/releases/download/v202605190750/UaufS6duSA7NIuMTzeuT6_v3.zip"
+    "packageUrl": "./UaufS6duSA7NIuMTzeuT6_v4.zip"
   }
 ]
