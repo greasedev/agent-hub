@@ -60,12 +60,12 @@
       "降价",
       "库存管理"
     ],
-    "version": "15",
+    "version": "16",
     "runtime": [
       "mac",
       "android"
     ],
-    "packageUrl": "https://github.com/greasedev/agent-hub/releases/download/v202605192148/wcO2UwlGAW1m5FBIAteto_v15.zip"
+    "packageUrl": "./wcO2UwlGAW1m5FBIAteto_v16.zip"
   },
   {
     "id": "UaufS6duSA7NIuMTzeuT6",
